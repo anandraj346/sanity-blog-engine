@@ -1,6 +1,5 @@
 import type { StructureBuilder, StructureResolver, StructureResolverContext } from "sanity/structure";
 import { SettingsItem } from "./items/settings-item";
-import { PagesItem } from "./items/pages-item";
 import { BlogItem } from "./items/blog-item";
 
 export const structure: StructureResolver = (
